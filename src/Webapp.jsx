@@ -6,7 +6,7 @@ function Webapp(){
     <div>
       <nav>
         <div>
-          <h1 className='font-boald uppercase  p-4'>
+          <h1 className='font-boald uppercase  p-4 border-b border-grey-100'>
             <a href="/">Food Ninja</a>
           </h1>
         </div>
@@ -32,8 +32,8 @@ function Webapp(){
   
     <main className='px-16 py-6'>
       <div>
-        <a href="#">Log in</a>
-        <a href="#">Sign up</a>
+        <a href="#" className='text-primary'>Log in</a>
+        <a href="#" className='text-primary' >Sign up</a>
       </div>
 
       <header >
@@ -42,11 +42,11 @@ function Webapp(){
       </header>
 
       <div>
-        <h4 className='font-bold mt-12 pb-2'>Latest Recipes</h4>
+        <h4 className='font-bold mt-12 pb-2 border-b border-gray-200'>Latest Recipes</h4>
   
-        <div>
+        <div className='mt-8' >
           {/* <!-- cards go here --> */}
-          <div> 
+          <div > 
             <img src={curry} alt="stew" />
             <div>
               <span>5 Bean Chili Stew</span>
@@ -57,13 +57,13 @@ function Webapp(){
 
         <h4 className='font-bold mt-12 pb-2'>Most Popular</h4>
 
-        <div>
+        <div className='mt-8'>
           {/* <!-- cards go here --> */}
         </div>
       </div>
 
       <div>
-        <div>Load more</div>
+        <div className='bg-secondary-100 text-secondary-200 '>Load more</div>
       </div>    
  </main>
  </div>
