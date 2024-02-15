@@ -12,6 +12,9 @@ export default {
           100:'#E2E3D5',
           200:'#888883',
         }
+      },
+      fontFamily:{
+        body: ["Nunito"]
       }
     },
   },
